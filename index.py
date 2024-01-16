@@ -23,4 +23,4 @@ def index_post():
 
 if __name__ == "__main__":
     os.makedirs("/var/python-app", exist_ok=True)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000)
